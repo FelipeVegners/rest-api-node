@@ -6,32 +6,24 @@
 
 
 # Install
-``` yarn install ```
+`yarn install`
 
-# Run MongoDB (Terminal) - Or use your favorite mongodb client
-**Important**: you need install MongoDB if you don't run yet:
+# Run MongoDB (Terminal)
+**Important**: you need install MongoDB if you don't run yet: https://docs.mongodb.com/manual/installation/
 </br>
-https://docs.mongodb.com/manual/installation/
-</br>
-</br>
-Start MongoDB
-</br>
-</br>
-``` sudo service mongod start ```
+#### Start MongoDB ####
+`sudo service mongod start`
 
-Restart MongoDB
-</br>
-</br>
-``` sudo service mongod restart ```
+#### Restart MongoDB ####
+`sudo service mongod restart`
 
-Stop MongoDB
-</br></br>
-``` sudo service mongod stop ```
+#### Stop MongoDB ####
+`sudo service mongod stop`
 
 # Run project
+`cd src`
 </br>
-</br>
-``` cd src ```
-``` nodemon ```
+`nodemon`
 
-Test the routes with Insomina or Postman
+# Testing Routes
+Test the routes with [**Insomina**](https://insomnia.rest/download/) or [**Postman**](https://www.getpostman.com/downloads/) and use [**Mailtrap**](https://mailtrap.io/) to simulate smtp server
